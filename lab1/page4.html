@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица товаров</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td:nth-child(3) {
+            background-color: #e6f7ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Services table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Cost</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Logistics</td>
+                <td>$10</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Warehousing</td>
+                <td>$5</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Freight</td>
+                <td rowspan="2">$15</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Specialized Transport</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>$50</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
