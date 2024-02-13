@@ -19,15 +19,16 @@
         th {
             background-color: #f2f2f2;
         }
-
-        td:nth-child(3) {
-            background-color: #e6f7ff;
-        }
     </style>
 </head>
 <body>
-    <h1>Services table</h1>
     <table>
+        <caption><h1>Services table</h1></caption>
+        <colgroup>
+            <col />
+            <col />
+            <col style="background-color:#e6f7ff">
+        </colgroup>
         <thead>
             <tr>
                 <th>Name</th>
