@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+}
+.transport-info {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.form-container {
+text-align: center;
+}
+
+form {
+display: inline-block;
+text-align: left;
+width: 300px;
+margin-top: 20px;
+}
+
+.form-label {
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+width: calc(100% - 10px);
+margin-bottom: 15px;
+}
+
+input[type="submit"] {
+background-color: rgb(245, 245, 245);
+color: #333;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: rgb(225, 225, 225);
+}
+
+#errorMessages {
+color: orange;
+margin-bottom: 10px;
+}
